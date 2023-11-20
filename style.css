@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #D40000; /* Rouge Ferrari */
+}
+
+.header-logo {
+    display: block; /* Affiche le logo comme un bloc */
+    margin: 0 auto; /* Centre le logo horizontalement */
+    width: 150px; /* Ajustez cette valeur pour que le logo soit légèrement plus grand que le titre */
+    height: auto; /* Maintient les proportions du logo */
+}
+
+.header-title {
+    text-decoration: none;
+    color: white;
+    font-size: 2em; /* Taille du titre */
+    display: block;
+    padding: 10px 0; /* Espace au-dessus et en dessous du titre */
+    font-weight: bold;
+}
+
+.header-title:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-section img, nav img, section img {
+    display: block;
+    margin: 0 auto; /* Centre les images */
+    max-width: 100%; /* S'assure que l'image ne dépasse pas la largeur du conteneur */
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #D40000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
